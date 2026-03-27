@@ -18,7 +18,7 @@ const movies = ref([
 
 const openModal = (movie) => {
   selectedMovie.value = movie;
-  isModalOpen.value = true;
+  isModalOpen.value = true; 
 }
 
 const deleteMovie = (targetId) => {
